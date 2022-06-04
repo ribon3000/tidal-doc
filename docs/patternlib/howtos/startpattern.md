@@ -7,7 +7,7 @@ The **Tidal Cycles** cycles clock is always ticking. Sometimes, you will need to
 
 ## nudge
 
-`nudge` is a function originally implemented to play around with the timing of audio sample playback. You can use it to get a nice `swing` effect. You can also use it to deal with various timing problems.
+`nudge` is a function originally implemented to play around with the timing of audio sample playback. You can use it to get a nice `swing` effect by specifying the time offset in seconds. You can also use it to deal with various timing problems.
 
 You can set a nudge value on individual patterns to get them to `shift` in time:
 ```haskell
